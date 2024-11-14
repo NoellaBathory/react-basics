@@ -1,0 +1,80 @@
+.recipe-list {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.search-filter-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  width: 60%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.health-label-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.health-label-filters label {
+  font-size: 14px;
+}
+
+.recipe-card {
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.highlight-green {
+  color: #388e3c;
+  padding: 1px 1px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.highlight-purple {
+  color: #6a1b9a;
+  padding: 1px 1px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.highlight-red {
+  color: #7e0000;
+  padding: 1px 1px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 4px;
+}

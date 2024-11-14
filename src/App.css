@@ -1,0 +1,32 @@
+html {
+  margin: 0;
+  padding: 0;
+  background: rgb(19, 120, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(19, 120, 0, 1) 18%,
+    rgba(0, 0, 0, 1) 67%
+  );
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: rgb(19, 120, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(19, 120, 0, 1) 18%,
+    rgba(0, 0, 0, 1) 67%
+  );
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 15px;
+}
+
+.title {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 20px;
+}
